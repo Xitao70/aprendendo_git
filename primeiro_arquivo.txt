@@ -1,0 +1,38 @@
+				.:: RESUMO ::.
+
+		Git - Sistema de Controle de Versão (VCS)
+
+	O Git, foi desenvolvido por Linus Torvalds, criador do Linux, como uma alternativa ao Sistema de Controle de Versão proprietário, o BitKeeper; utilizado pela comunidade para ter controle sobre as mudanças feitas no kernel do Linux entre 2002 e 2005.
+	Em 2005, o relacionamento entre a comunidade e a BitKeeper se desfez, o que levou toda a comunidade (em especial Linus Torvalds) a pensar em um sistema de versionamento alternativo.
+	Nascia assim o Git. Apesar de seu foco original ainda ser o desenvolvimento de software, este sistema de controle de versão distribuído (descentralizado), ficou mundialmente conhecido e hoje é usado para registrar o histórico  das edições de qualquer tipo de arquivo.
+	
+	Suas características são:
+	Permite que os desenvolvedores trabalhem simultaneamente.
+ 	Não permite substituir as alterações um do outro.
+	Mantém um histórico de todas as versões.
+	É um sistema de controle de versão descentralizado.
+
+	Como a maioria das operações do Git são feitas localmente, de forma instantânea assimm são eliminados problemas no tráfego de arquivos ou latências de rede. 
+	Outro aspecto muito importante no Git é a integridade dos arquivos, que é garantida por meio de uma chave criptográfica (SHA-1), este algoritmo garante que o usuário não irá perder informações ao alterar, salvar, fazer upload, etc.
+	 
+	Comandos básicos:
+	
+	git init - cria um novo repositório.
+	
+	git add - adicionar arquivo do diretório local para o  índice
+		exemplo: git add meu_arquivo.txt
+
+	git commmit -m    este comando para registrar o estado de um projeto em um determinado momento e podem ser considerados como marcos ou instantâneos dentro de um cronograma em um projeto Git.
+
+
+	git clone [endereço do arquivo] - Este comando clona um repositório existente;
+	
+	git status - Visualiza o status dos seus arquivos
+
+	git log - mostra o histórico de commits em um repositório.
+	
+	git push - envia as versões atualizadas de arquivos prontos para o repositório remoto.
+		exemplo: git push origin master (neste comando o arquivo é enviado para a branch "master").
+
+	git pull - usado para atualizar o repositório local copiando os arquivos do repositório remoto.
+	
